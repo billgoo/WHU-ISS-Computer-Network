@@ -1,0 +1,10 @@
+module ListFile {
+
+	interface List {
+
+		boolean add( in string username, in string password, in string start_time, in string end_time, in string description );
+		string query( in string username, in string password, in string start_time, in string end_time );
+		boolean delete( in string username, in string password, in long item_id );
+		boolean clear( in string username, in string password );
+	};
+};

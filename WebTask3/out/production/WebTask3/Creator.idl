@@ -1,0 +1,6 @@
+module CreatorFile {
+
+	interface Creator {
+
+		boolean register( in string username, in string password );	};
+};
